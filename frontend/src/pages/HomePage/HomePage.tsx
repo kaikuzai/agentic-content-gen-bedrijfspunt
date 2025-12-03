@@ -7,9 +7,7 @@ const HomePage = () => {
   return (
     <div className="home-container">
       <div className="info-card">
-        <div className="profile-image-placeholder">
-          {/* Image will go here */}
-        </div>
+        <div className="profile-image-placeholder"></div>
         <h2>Gemaakt door Dylan Okyere</h2>
         <p className="subtitle">Student Business IT & Management</p>
         <p className="subtitle">

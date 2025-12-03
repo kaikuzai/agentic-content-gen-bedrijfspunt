@@ -14,7 +14,7 @@ export const Navbar: React.FC = () => {
                 isActive ? "nav-links active" : "nav-links"
               }
             >
-              Home
+              Introductie
             </NavLink>
           </li>
           <li className="nav-item">

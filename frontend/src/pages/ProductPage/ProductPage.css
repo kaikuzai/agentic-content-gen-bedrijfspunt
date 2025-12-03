@@ -1,0 +1,95 @@
+.product-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.product-page h1 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.product-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #555;
+}
+
+.workflow-section {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+
+.workflow-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+.workflow-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.workflow-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.step {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.step h3 {
+  margin: 0 0 0.5rem 0;
+  color: #007bff;
+  font-size: 1.1rem;
+}
+
+.step p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.workflow-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.workflow-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .workflow-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .workflow-image-container {
+    order: -1;
+  }
+}
